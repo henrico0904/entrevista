@@ -38,8 +38,34 @@ main {
 }
 
 #bem-vindo {
-   margin-top: 120px;
+   margin-top: 80px;
     font-size: 24px;
+}
+
+#imagem-profissao {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    width: 40%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 30px;
+}
+
+#textinho {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 44, 78, 0.5);
+    color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: large;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -50,10 +76,16 @@ main {
     width: 60%;
     text-align: center;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 35px;
     justify-content: center;
     align-items: center;
+    transition: all 0.6s ease;
 }
+#sobre-site:hover{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+}
+
 #sobre-site h1{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -76,8 +108,9 @@ main {
     align-items: center;
     margin-top: 60px;
     width: 55%;
-    height: 20px;
+    height: auto; 
     justify-content: space-around;
+    margin-bottom: 65px;
 }
 
 .mais a {
@@ -92,6 +125,12 @@ main {
     height: 30px;
     width: 120px;
     border-radius: 20px;
+    transition: all 0.6s ease;
+}
+.mais :hover {
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05);
 }
 
 footer {
@@ -103,9 +142,6 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: auto;
-    position: fixed;
-    bottom: 0;
-    left: 0;
 }
 
 

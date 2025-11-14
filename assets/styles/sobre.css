@@ -51,6 +51,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 35px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
 }
 #foto{
     background-color: white;
@@ -95,6 +97,12 @@ header {
     height: 30px;
     width: 120px;
     border-radius: 20px;
+    transition: all 0.6s ease;
+}
+.mais :hover {
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05);
 }
 
 
