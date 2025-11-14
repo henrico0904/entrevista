@@ -45,7 +45,7 @@ main {
 #imagem-profissao {
     background-image: url('../images/banner.jpg');
     background-size: cover;
-    width: 40%;
+    width: 50%;
     height: 400px;
     display: flex;
     justify-content: center;
